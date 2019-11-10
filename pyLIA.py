@@ -29,4 +29,4 @@ def LIA(data,sampling_freq,load_freq):
     mag = np.sqrt(Re**2 + Img**2) # magnitude
     ph = np.arctan(Img/Re) * 180/np.pi #phase in degrees
 
-    return mag,ph
+    return mag, ph
