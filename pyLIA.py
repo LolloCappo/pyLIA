@@ -7,7 +7,7 @@ def LIA(data,sampling_freq,load_freq):
     
     Arguments:
         data {np.array} -- sequence of thermal images
-        sampling_freq {float} -- sampling frequency if thermal video [Hz]
+        sampling_freq {float} -- sampling frequency of thermal video [Hz]
         load_freq {float} -- frequency of excitaiton load [Hz]
     
     Returns:
