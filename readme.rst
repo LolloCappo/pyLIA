@@ -1,8 +1,41 @@
-pyLIA
-======
+﻿Lock-in analysis
+---------------------------------------------
 
-Lock-In Analyzer
--------------------------
-This module allows to compute magnitude and phase from thermal images implementing a lock-in digital analyzer.
-Peak amplitude and phase are obtained from thermal image sequence.
-We developed this module while working on images recorded from FLIR thermal camera.
+Perform digital lock-in analysis
+
+.. code-block:: console
+
+
+Simple examples
+---------------
+
+Here is a simple example on how to use the code:
+
+.. code-block:: python
+	pip install pyLIA
+
+	import numpy as np
+	import matplotlib.pyplot as plt
+	import pyLIA
+
+	data = np.load('camera.npy') ## Thermal acquisition
+	sampling_freq = 400  ## Sampling freqency of the thermal video [Hz]
+	load_freq = 55  ## Load freqency of the excitation test [Hz]
+
+	mag, ph = pyLIA.LIA(data,sampling_freq,load_freq)
+
+	plt.figure()
+	plt.imshow(mag)
+	cbar = plt.colorbar()
+	cbar.set_label('[unit]')
+
+	plt.figure()
+	plt.imshow(ph)
+	cbar = plt.colorbar()
+	cbar.set_label('[deg]')
+    
+
+Reference:
+
+Non-stationarity index in vibration fatigue: Theoretical and experimental research; L. Capponi, M. Česnik, J. Slavič, F. Cianetti, M. Boltežar; International Journal of Fatigue 104, 221-230
+https://www.sciencedirect.com/science/article/abs/pii/S014211231730316X
