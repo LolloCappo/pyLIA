@@ -1,5 +1,6 @@
 ﻿Lock-in analysis
 ---------------------------------------------
+
 Perform digital lock-in analysis
 
 .. code-block:: console
@@ -11,6 +12,7 @@ Simple examples
 Here is a simple example on how to use the code:
 
 .. code-block:: python
+
 	pip install pyLIA
 
 	import numpy as np
