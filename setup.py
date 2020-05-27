@@ -1,4 +1,4 @@
-with open('readme.rst', 'r') as f:
+with open('readme.md', 'r') as f:
     readme = f.read()
     
 def parse_requirements(filename):
