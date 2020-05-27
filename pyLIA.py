@@ -23,8 +23,8 @@ def LIA(data,sampling_freq,load_freq):
 
     L1 = S*data # sine matrix * data matrix
     L2 = C*data # cosine matrix * data matrix
-    Re = 2 * np.trapz(L1)/data.shape[0] # real part
-    Img = 2 * np.trapz(L2)/data.shape[0] #imaginary part
+    Re = 2 * np.trapz(L1, axis = 0)/data.shape[0] # real part
+    Img = 2 * np.trapz(L2, axis = 0)/data.shape[0] #imaginary part
     
     mag = np.sqrt(Re**2 + Img**2) # magnitude
     ph = np.arctan(Img/Re) * 180/np.pi #phase in degrees
