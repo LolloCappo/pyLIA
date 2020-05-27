@@ -23,6 +23,6 @@ setup(name='pyLIA',
       description='Module for Lock-In Analysis',
       url='https://github.com/LolloCappo/pyLIA',
       py_modules=['pyLIA'],
-      long_description=readme,
+      long_description=README,
       install_requires=requirements
       )
