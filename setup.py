@@ -1,4 +1,4 @@
-with open('README.rst', 'r') as f:
+with open('readme.rst', 'r') as f:
     readme = f.read()
     
 def parse_requirements(filename):
@@ -23,6 +23,6 @@ setup(name='pyLIA',
       description='Module for Lock-In Analysis',
       url='https://github.com/LolloCappo/pyLIA',
       py_modules=['pyLIA'],
-      long_description=README,
+      long_description=readme,
       install_requires=requirements
       )
