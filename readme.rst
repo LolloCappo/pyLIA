@@ -1,4 +1,4 @@
-﻿Lock-in analysis
+﻿Digital lock-in analysis
 ---------------------------------------------
 
 Perform digital lock-in analysis
