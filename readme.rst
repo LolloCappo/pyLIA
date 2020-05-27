@@ -1,6 +1,5 @@
 ﻿Lock-in analysis
 ---------------------------------------------
-
 Perform digital lock-in analysis
 
 .. code-block:: console
