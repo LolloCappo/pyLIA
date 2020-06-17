@@ -44,6 +44,4 @@ Here is a simple example on how to use the code:
 
 
 Reference:
-
-Thermoelasticity-based modal damage identification; L. Capponi, J. Slavič, G. Rossi, M. Boltežar; International Journal of Fatigue, 105661
 <https://www.sciencedirect.com/science/article/pii/S0142112320301924>
