@@ -1,7 +1,7 @@
 from setuptools import setup, Extension
 from pyLIA import __version__
 
-with open('readme.rst', 'r', encoding='utf8') as f:
+with open('README.rst', 'r', encoding='utf8') as f:
     readme = f.read()
     
 def parse_requirements(filename):
