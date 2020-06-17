@@ -1,4 +1,4 @@
-__version__ = '0.3'
+__version__ = '0.4'
 import numpy as np
 
 def LIA(data,fs,fl):
