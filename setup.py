@@ -1,4 +1,7 @@
-with open('readme.rst', 'r') as f:
+from setuptools import setup, Extension
+from pyLIA import __version__
+
+with open('readme.rst', 'r', encoding='utf8') as f:
     readme = f.read()
     
 def parse_requirements(filename):
@@ -13,16 +16,14 @@ def parse_requirements(filename):
 
 requirements = parse_requirements('requirements.txt')
 
-#from distutils.core import setup, Extension
-from setuptools import setup, Extension
-from pyLIA import __version__
-setup(name='pyLIA',
-      version=__version__,
-      author='Lorenzo Capponi',
-      author_email='lorenzocapponi@outlook.it',
-      description='Module for Lock-In Analysis',
-      url='https://github.com/LolloCappo/pyLIA',
-      py_modules=['pyLIA'],
-      long_description=readme,
-      install_requires=requirements
+if __name__ == '__main__':
+    setup(name='pyLIA',
+        version=__version__,
+        author='Lorenzo Capponi',
+        author_email='lorenzocapponi@outlook.it',
+        description='Module for Lock-In Analysis',
+        url='https://github.com/LolloCappo/pyLIA',
+        py_modules=['pyLIA'],
+        long_description=readme,
+        install_requires=requirements
       )
