@@ -1,5 +1,5 @@
 with open('readme.md', 'r') as f:
-    readme = f.read(encoding="utf8")
+    readme = f.read()
     
 def parse_requirements(filename):
     ''' Load requirements from a pip requirements file '''
