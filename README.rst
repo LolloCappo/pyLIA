@@ -26,10 +26,10 @@ Here is a simple example on how to use the code:
 	import matplotlib.pyplot as plt
 
 	data = np.load('camera.npy') ## Thermal acquisition
-	sampling_freq = 400  ## Sampling freqency of the thermal video [Hz]
-	load_freq = 55  ## Load freqency of the excitation test [Hz]
+	fs = 400  ## Sampling freqency of the thermal video [Hz]
+	fl = 55  ## Load freqency of the excitation test [Hz]
 
-	mag, ph = pyLIA.LIA(data,sampling_freq,load_freq)
+	mag, ph = pyLIA.LIA(data, fs, fl)
 
 	plt.figure()
 	plt.imshow(mag)
