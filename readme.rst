@@ -4,16 +4,26 @@
 Perform digital lock-in analysis
 
 
+Installing this package
+-----------------------
+
+Use `pip` to install it by:
+
+.. code-block:: console
+
+    $ pip install pyLIA
+
+
 Simple examples
 ---------------
 
 Here is a simple example on how to use the code:
 
-	pip install pyLIA
+.. code-block:: python
 
+	import pyLIA
 	import numpy as np
 	import matplotlib.pyplot as plt
-	import pyLIA
 
 	data = np.load('camera.npy') ## Thermal acquisition
 	sampling_freq = 400  ## Sampling freqency of the thermal video [Hz]
@@ -35,4 +45,4 @@ Here is a simple example on how to use the code:
 Reference:
 
 Non-stationarity index in vibration fatigue: Theoretical and experimental research; L. Capponi, M. Česnik, J. Slavič, F. Cianetti, M. Boltežar; International Journal of Fatigue 104, 221-230
-https://www.sciencedirect.com/science/article/abs/pii/S014211231730316X
+<https://www.sciencedirect.com/science/article/abs/pii/S014211231730316X>
