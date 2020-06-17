@@ -42,7 +42,4 @@ Here is a simple example on how to use the code:
 	cbar.set_label('[deg]')
     
 
-Reference:
 
-Non-stationarity index in vibration fatigue: Theoretical and experimental research; L. Capponi, M. Česnik, J. Slavič, F. Cianetti, M. Boltežar; International Journal of Fatigue 104, 221-230
-<https://www.sciencedirect.com/science/article/abs/pii/S014211231730316X>
