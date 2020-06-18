@@ -6,7 +6,7 @@ with open('README.rst', 'r', encoding='utf8') as f:
     
 def parse_requirements(filename):
     ''' Load requirements from a pip requirements file '''
-    with open(filename, 'r') as fd:
+    with open(filename, 'r', encoding='utf8') as fd:
         lines = []
         for line in fd:
             line.strip()
