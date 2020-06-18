@@ -1,7 +1,7 @@
 ﻿Digital lock-in analysis
 ---------------------------------------------
 
-Perform digital lock-in analysis
+Perform digital lock-in analysis built for thermal analysis
 
 
 Installing this package
