@@ -1,4 +1,4 @@
-﻿Digital lock-in analysis
+Digital lock-in analysis
 ---------------------------------------------
 
 Perform digital lock-in analysis built for thermal analysis
