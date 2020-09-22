@@ -1,6 +1,9 @@
 Digital lock-in analysis
 ---------------------------------------------
 
+.. image:: https://zenodo.org/badge/220818285.svg
+   :target: https://zenodo.org/badge/latestdoi/220818285
+
 Perform digital lock-in analysis built for thermal analysis
 
 
